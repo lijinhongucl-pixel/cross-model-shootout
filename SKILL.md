@@ -1,8 +1,8 @@
 ---
 name: cross-model-shootout
 slug: cross-model-shootout
-displayName: 大模型横评对比
-version: 1.0.2
+displayName: 大模型横评对比 / 模型选型
+version: 1.0.3
 summary: 同一个 prompt 在多个大模型上真实跑一遍，输出延迟、波动、token 消耗、成本和回复样本的横向对比表。零第三方依赖，只用一个 OpenAI 兼容的 API Key 就能同时横评多个模型，适合模型选型、prompt 调优和成本核算。支持任意 OpenAI 兼容端点。
 description: 大模型横评对比 / 跨模型对比测试。当用户想比较多个大模型的真实表现时使用——比如「这几个模型哪个好」「帮我横评一下 DeepSeek 和 Qwen」「同一段 prompt 在多个模型上跑一遍看差异」「测一下各模型的延迟和成本」「选型时给点实测数据」。会在多个模型上真实发起调用，收集延迟、token 用量和成本，产出对比表和结论。触发词：模型对比、大模型横评、模型选型、模型跑分、prompt 测试、多模型评测、model comparison。
 tags: [大模型, 模型对比, 横评, 模型选型, 评测, prompt, 成本核算, API, astraflow]
